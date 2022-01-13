@@ -1,4 +1,4 @@
-package exercitando.java8.collections;
+package collections;
 
 public class CursoComAlunoMain {
     public static void main(String[] args) {

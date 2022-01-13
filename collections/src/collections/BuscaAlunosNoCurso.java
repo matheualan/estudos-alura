@@ -1,9 +1,9 @@
-package exercitando.java8.collections;
+package collections;
 
 public class BuscaAlunosNoCurso {
     public static void main(String[] args) {
 
-        Curso curso = new Curso("Collections", "Paulo Silveira");
+        collections.Curso curso = new collections.Curso("Collections", "Paulo Silveira");
         curso.addAula(new Aula("Set", 20));
         curso.addAula(new Aula("List", 25));
         curso.addAula(new Aula("Map", 23));

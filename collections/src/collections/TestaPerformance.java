@@ -1,4 +1,4 @@
-package exercitando.java8.collections;
+package collections;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package exercitando.java8.collections;
+package collections;
 
 public class Aula implements Comparable<Aula> {
 
