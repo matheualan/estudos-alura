@@ -16,6 +16,13 @@ public class ActionButton implements ActionListener {
         this.resultado = resultado;
     }
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        Runnable multiplicacao = new Multiplicacao(primeiro, segundo, resultado);
+        Thread thread = new Thread(multiplicacao, "Thread Calculador");
+        thread.start();
+    }
+
 //    @Override
 //    public void actionPerformed(ActionEvent e) {
 //        long valor1 = Long.parseLong(primeiro.getText());
@@ -23,12 +30,5 @@ public class ActionButton implements ActionListener {
 //        long result = valor1 * valor2;
 //        resultado.setText(String.valueOf(result));
 //    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        Runnable multiplicacao = new Multiplicacao(primeiro, segundo, resultado);
-        Thread thread = new Thread(multiplicacao, "Thread Calculador");
-        thread.start();
-    }
 
 }

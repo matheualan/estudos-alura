@@ -1,14 +1,22 @@
 package br.com.alura.threads;
+/**
+ * Através das Threads podemos executar tarefas em paralelo;
+ * Uma classe que implementa a interface Runnable define a tarefa que o Thread executará;
+ * O construtor da classe Thread recebe esse Runnable;
+ * Devemos inicializar uma Thread explicitamente através do método start();
+ * Através do Thread.sleep(millis) podemos mandar uma thread dormir.
+ */
 
 import javax.swing.*;
 
 public class ScreenCalculator {
+
     public static void main(String[] args) {
 
         JFrame janela = new JFrame("Multiplicação Demorada");
 
-        JTextField primeiro = new JTextField(10);
-        JTextField segundo = new JTextField(10);
+        JTextField primeiro = new JTextField(5);
+        JTextField segundo = new JTextField(5);
         JButton botao = new JButton(" = ");
         JLabel resultado = new JLabel("               ?              ");
 
@@ -27,4 +35,5 @@ public class ScreenCalculator {
         janela.setVisible(true);
 
     }
+
 }
