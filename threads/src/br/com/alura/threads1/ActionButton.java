@@ -1,4 +1,4 @@
-package br.com.alura.threads;
+package br.com.alura.threads1;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

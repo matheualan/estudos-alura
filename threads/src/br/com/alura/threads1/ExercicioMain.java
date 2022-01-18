@@ -1,4 +1,4 @@
-package br.com.alura.threads;
+package br.com.alura.threads1;
 
 public class ExercicioMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.alura.threads;
+package br.com.alura.threads1;
 /**
  * Através das Threads podemos executar tarefas em paralelo;
  * Uma classe que implementa a interface Runnable define a tarefa que o Thread executará;
