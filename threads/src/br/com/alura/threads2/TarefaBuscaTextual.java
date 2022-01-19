@@ -2,13 +2,11 @@ package br.com.alura.threads2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class TarefaBuscaTextual implements Runnable {
 
-    private String path1 = "c:\\repositories\\autores.txt";
+//    private String path = "c:\\repositories\\autores.txt";
     private String nomeArquivo;
     private String nomePessoa;
 
@@ -21,17 +19,20 @@ public class TarefaBuscaTextual implements Runnable {
     public void run() {
         try {
             int count = 1;
-            Scanner reader = new Scanner(new File(path1));
+            Scanner reader = new Scanner(new File(nomeArquivo));
+
             while (reader.hasNextLine()) {
                 String line = reader.nextLine();
+//                System.out.println(line);
 
+                if(line.matches(nomePessoa)) {
+
+                }
                 if (line.toLowerCase().contains(nomePessoa.toLowerCase())) {
-                    System.out.println("Arquivo realizado a busca: " + nomeArquivo +
-                            ",\nNome encontrado: " + nomePessoa + ",\nPosição: " + count);
+                    System.out.println("Arquivo procurado: " + nomeArquivo +
+                            ",\nNome procurado: " + line + ",\nPosição encontrada: " + count);
                     System.out.println();
                 }
-
-//                System.out.println(line);
                 count++;
             }
             reader.close();
