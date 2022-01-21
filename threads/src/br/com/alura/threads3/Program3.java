@@ -8,7 +8,7 @@ package br.com.alura.threads3;
  * A sincronização é feita através de mutex, que nada mais é do que a chave do objeto.
  */
 
-public class Program {
+public class Program3 {
     public static void main(String[] args) {
 
         Banheiro banheiro = new Banheiro();

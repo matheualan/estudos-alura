@@ -11,7 +11,7 @@ package br.com.alura.threads4;
 import java.util.List;
 import java.util.Vector;
 
-public class Program {
+public class Program4 {
 
     public static void main(String[] args) throws InterruptedException {
 
