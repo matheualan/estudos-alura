@@ -10,14 +10,23 @@ public class TarefaImprimir implements Runnable {
 
     @Override
     public void run() {
+        String name = Thread.currentThread().getName();
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         synchronized (lista) {
-            try {
-                this.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            if (!lista.estaCheia()) {
+                try {
+                    System.out.println(name + "Aguardando notificação.");
+                    lista.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             for (int i = 0; i < lista.tamanho(); i++) {
-                System.out.println(i + " - " + lista.pegaElemento(i));
+                System.out.println((i + 1) + " - " + lista.pegaElemento(i));
             }
         }
     }

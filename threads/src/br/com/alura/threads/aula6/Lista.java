@@ -8,9 +8,10 @@ public class Lista {
     public synchronized void adicionaElementos(String elemento) {
         this.elementos[indice] = elemento;
         this.indice++;
-        standBy(5000);
 
+        standBy(5);
         if (this.indice == this.elementos.length) {
+            System.out.println("Notificando: Lista cheia.");
             this.notify();
         }
     }
@@ -29,6 +30,10 @@ public class Lista {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean estaCheia() {
+        return this.indice == this.tamanho();
     }
 
 }
