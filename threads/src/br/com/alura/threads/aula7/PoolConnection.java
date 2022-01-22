@@ -3,7 +3,6 @@ package br.com.alura.threads.aula7;
 public class PoolConnection {
 
     public String getConnection() {
-
         System.out.println("Emprestando conexão");
 
         try {
@@ -14,4 +13,5 @@ public class PoolConnection {
 
         return "connection";
     }
+
 }

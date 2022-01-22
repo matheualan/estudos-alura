@@ -13,7 +13,13 @@ public class TarefaAcessaBanco implements Runnable {
     @Override
     public void run() {
         synchronized (poolConnection) {
+            System.out.println("Peguei a chave do pool");
+            poolConnection.getConnection();
 
+            synchronized (transactionManager) {
+                System.out.println("Peguei a chave do transaction");
+                transactionManager.begin();
+            }
         }
     }
 
