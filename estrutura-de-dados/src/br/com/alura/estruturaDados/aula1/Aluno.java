@@ -19,12 +19,19 @@ public class Aluno {
         return "Aluno[Nome: " + name + "]";
     }
 
+//    @Override
+//    public boolean equals(Object obj) {
+//        if (this == obj) return true;
+//        if (!(obj instanceof Aluno)) return false;
+//        Aluno aluno = (Aluno) obj;
+//        return name.equals(aluno.name);
+//    }
+
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Aluno)) return false;
-        Aluno aluno = (Aluno) o;
-        return name.equals(aluno.name);
+    public boolean equals(Object obj) {
+        Aluno aluno = (Aluno) obj;
+        if (aluno == null) return false;
+        return aluno.getName().equals(this.name);
     }
 
     @Override
