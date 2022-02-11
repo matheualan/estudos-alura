@@ -1,6 +1,7 @@
 package br.com.alura.estruturaDados.aula1;
 
 public class VetorMain {
+
     public static void main(String[] args) {
 
         Aluno aluno1 = new Aluno("João");
@@ -19,10 +20,17 @@ public class VetorMain {
         System.out.println(lista);
         System.out.println(lista.contem(aluno1));
 
-        lista.adicionarQualquerLugar(0, aluno4);
+        lista.adicionaQualquerLugar(0, aluno4);
         lista.removeAluno(2);
         lista.removeAluno(0);
         System.out.println(lista);
 
+        for (int i = 0; i < 250; i++) {
+            Aluno adcAlunos = new Aluno("Joao " + i);
+            lista.adicionaAluno(adcAlunos);
+        }
+        System.out.println(lista);
+
     }
+
 }
