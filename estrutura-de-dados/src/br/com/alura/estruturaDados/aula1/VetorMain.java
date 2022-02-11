@@ -1,5 +1,7 @@
 package br.com.alura.estruturaDados.aula1;
 
+import java.util.ArrayList;
+
 public class VetorMain {
 
     public static void main(String[] args) {

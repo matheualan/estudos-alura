@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Aluno {
 
-    private String name;
+    private final String name;
 
     public Aluno(String name) {
         this.name = name;
