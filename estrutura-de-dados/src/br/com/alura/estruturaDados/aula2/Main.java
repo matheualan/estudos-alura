@@ -1,5 +1,11 @@
 package br.com.alura.estruturaDados.aula2;
 
+/**
+ * Lista Ligada possui uma seta apontando para a próxima celula
+ * Vantagens: Adicionar elementos no meio da lista
+ * Desvantagens: Remover elementos no fim da lista
+ */
+
 public class Main {
     public static void main(String[] args) {
 
