@@ -3,7 +3,8 @@ package br.com.alura.estruturaDados.aula4;
 import java.util.Stack;
 
 /**
- * Para inserir elementos na pilha usa-se 'push' e para remover 'pop', e 'peek' fala qual o último elemento da pilha
+ * Para inserir elementos na pilha usa-se 'push' e para remover 'pop',
+ * e 'peek' fala qual o último elemento da pilha que seria removido.
  */
 
 public class Main {

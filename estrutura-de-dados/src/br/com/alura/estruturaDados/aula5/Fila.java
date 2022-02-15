@@ -23,5 +23,5 @@ public class Fila {
     public String toString() {
         return "Alunos: " + alunos.toString();
     }
-    
+
 }
