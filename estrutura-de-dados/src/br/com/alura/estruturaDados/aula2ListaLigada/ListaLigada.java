@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula2;
+package br.com.alura.estruturaDados.aula2ListaLigada;
 
 public class ListaLigada {
 

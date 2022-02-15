@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula3;
+package br.com.alura.estruturaDados.aula3ListaDupLigada;
 
 /**
  * Lista Duplamente Ligada possui 2 setas apontando para a anterior e próxima celula

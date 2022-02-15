@@ -1,6 +1,4 @@
-package br.com.alura.estruturaDados.aula1;
-
-import java.util.ArrayList;
+package br.com.alura.estruturaDados.aula1Vetor;
 
 public class VetorMain {
 

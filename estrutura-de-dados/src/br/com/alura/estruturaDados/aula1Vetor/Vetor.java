@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula1;
+package br.com.alura.estruturaDados.aula1Vetor;
 
 import java.util.Arrays;
 

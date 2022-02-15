@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula4;
+package br.com.alura.estruturaDados.aula4Pilha;
 
 import java.util.LinkedList;
 import java.util.List;

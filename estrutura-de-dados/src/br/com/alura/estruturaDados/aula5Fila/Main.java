@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula5;
+package br.com.alura.estruturaDados.aula5Fila;
 
 import java.util.LinkedList;
 import java.util.Queue;

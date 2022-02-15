@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula2;
+package br.com.alura.estruturaDados.aula2ListaLigada;
 
 /**
  * Lista Ligada possui uma seta apontando para a próxima celula

@@ -1,4 +1,4 @@
-package br.com.alura.estruturaDados.aula3;
+package br.com.alura.estruturaDados.aula3ListaDupLigada;
 
 public class ListaDuplamenteLigada {
 
