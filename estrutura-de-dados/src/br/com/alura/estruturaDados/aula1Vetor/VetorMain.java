@@ -1,5 +1,9 @@
 package br.com.alura.estruturaDados.aula1Vetor;
 
+/**
+ * Vantagens: Pegar um elemento aleatório, no meio da lista, é rápido, tempo constante.
+ */
+
 public class VetorMain {
 
     public static void main(String[] args) {

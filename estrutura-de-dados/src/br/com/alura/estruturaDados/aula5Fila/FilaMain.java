@@ -8,7 +8,7 @@ import java.util.Queue;
  * e 'peek' fala qual o último elemento da pilha que seria removido.
  */
 
-public class Main {
+public class FilaMain {
     public static void main(String[] args) {
 
         Fila fila = new Fila();

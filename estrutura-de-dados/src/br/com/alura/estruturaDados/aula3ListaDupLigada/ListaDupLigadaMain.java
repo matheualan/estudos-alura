@@ -5,7 +5,7 @@ package br.com.alura.estruturaDados.aula3ListaDupLigada;
  * Vantagens: Remove elementos no fim da lista com mais facilidade
  */
 
-public class Main {
+public class ListaDupLigadaMain {
     public static void main(String[] args) {
 
         ListaDuplamenteLigada listaDuplaLigada = new ListaDuplamenteLigada();

@@ -7,7 +7,7 @@ import java.util.Stack;
  * e 'peek' fala qual o último elemento da pilha que seria removido.
  */
 
-public class Main {
+public class PilhaMain {
     public static void main(String[] args) {
 
         Pilha pilha = new Pilha();
